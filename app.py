@@ -17,6 +17,8 @@ def load_model():
 
 pipeline, col_names = load_model()
 
+st.sidebar.write("Model Used: Random Forest")
+
 # ui design
 lon = st.number_input(
     "Longitude:"
